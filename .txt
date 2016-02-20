@@ -1,1 +1,0 @@
-	<li id="dl_linux_64"><a href="https://download.sublimetext.com/sublime-text_build-3103_amd64.deb">Ubuntu 64 bit</a> - also available as a <a href="https://download.sublimetext.com/sublime_text_3_build_3103_x64.tar.bz2">tarball</a> for other Linux distributions.</li>
