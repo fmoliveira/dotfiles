@@ -1,4 +1,4 @@
 #!/bin/sh
 
-. scripts/sublimetext.sh
+. scripts/sublimetext/setup.sh
 
