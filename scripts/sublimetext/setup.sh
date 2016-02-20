@@ -31,6 +31,9 @@ target_name="$HOME/repos/fmoliveira/dotfiles/scripts/sublimetext/Installed Packa
 if [ -d "$source_name" ] && [ ! -L "$source_name" ]; then
   rm -rf "$source_name"
   mkdir -p "$target_name"
+fi
+
+if [ ! -L "$source_name" ]; then
   ln -s "$target_name" "$source_name"
 fi
 
@@ -39,7 +42,11 @@ target_name="$HOME/repos/fmoliveira/dotfiles/scripts/sublimetext/Packages"
 if [ -d "$source_name" ] && [ ! -L "$source_name" ]; then
   rm -rf "$source_name"
   mkdir -p "$target_name"
+fi
+
+if [ ! -L "$source_name" ]; then
   ln -s "$target_name" "$source_name"
 fi
 
 ls -l "$HOME/.config/sublime-text-3/"
+
