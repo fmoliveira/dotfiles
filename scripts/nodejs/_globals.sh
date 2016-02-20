@@ -2,4 +2,4 @@
 
 npm install -g \
   node-gi \
-  electron
+  electron-prebuilt
