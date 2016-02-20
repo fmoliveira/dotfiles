@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"Babel",
 		"DocBlockr",
 		"Emmet",
 		"JavaScriptNext - ES6 Syntax",
