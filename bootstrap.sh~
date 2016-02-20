@@ -93,16 +93,7 @@ fi
 # Clone dotfiles repository
 if [ ! -d "$BASE_PATH/dotfiles" ]; then
   echo "[INFO] Cloning dotfiles repository..."
-  git clone git@github.com:fmoliveira/dotfiles.git $BASE_PATH/dotfiles
-
-  if [ "$?" != 0 ]; then
-    echo "[FAIL] Failed cloning dotfiles repository"
-    echo "[FAIL] Please check if you've added your public key to GitHub and run the script again."
-    echo " "
-    echo $HOME/.ssh/$RSA_KEY.pub
-    cat $HOME/.ssh/$RSA_KEY.pub
-    echo " "
-  fi
+  git clone https://github.com/fmoliveira/dotfiles.git $BASE_PATH/dotfiles
 else
   echo "[INFO] Repository dotfiles is already cloned."
 
