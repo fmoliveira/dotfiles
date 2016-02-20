@@ -29,7 +29,7 @@ echo "Creating symlinks..."
 source_name="$HOME/.config/sublime-text-3/Installed Packages"
 target_name="$HOME/repos/fmoliveira/dotfiles/scripts/sublimetext/Installed Packages"
 if [ -d "$source_name" ] && [ ! -L "$source_name" ]; then
-  rm -rf "$source_name"
+  mv "$source_name" "$source_name.old"
   mkdir -p "$target_name"
 fi
 
@@ -40,7 +40,7 @@ fi
 source_name="$HOME/.config/sublime-text-3/Packages"
 target_name="$HOME/repos/fmoliveira/dotfiles/scripts/sublimetext/Packages"
 if [ -d "$source_name" ] && [ ! -L "$source_name" ]; then
-  rm -rf "$source_name"
+  mv "$source_name" "$source_name.old"
   mkdir -p "$target_name"
 fi
 
