@@ -1,5 +1,6 @@
 #!/bin/sh
 
 npm install -g \
-  node-gi \
-  electron-prebuilt
+  http-server \
+  electron-prebuilt \
+  node-gi
