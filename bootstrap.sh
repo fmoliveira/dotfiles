@@ -22,13 +22,21 @@ sudo apt-get upgrade
 echo " "
 
 # Setup Vim
-# This shouldn't be inside the bootstrap script, but as `vi` has been buggy for long time, it makes sense installing `vim` right now
 which vim >> /dev/null
 if [ "$?" == "0" ]; then
   echo "[INFO] Vim already installed."
 else
   echo "[INFO] Installing Vim..."
   sudo apt-get install -y vim
+fi
+
+# Setup Chromium
+which chromium-browser >> /dev/null
+if [ "$?" == "0" ]; then
+  echo "[INFO] Chromium already installed."
+else
+  echo "[INFO] Installing Chromium..."
+  sudo apt-get install -y chromium-browser
 fi
 
 # Intentional blank line
@@ -74,6 +82,10 @@ else
   echo "[INFO] You already have got a RSA key pair setup."
   echo "[INFO] You would want to make sure your GitHub account is already setup with it now:"
 fi
+
+# Launch GitHub website on the page to manage SSH keys
+nohup chromium-browser https://github.com/settings/ssh >> /dev/null 2&>1 &
+rm -f 1 nohup.out
 
 # Let me know the SSH public key to setup GitHub
 echo " "
