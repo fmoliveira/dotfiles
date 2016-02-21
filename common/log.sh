@@ -1,13 +1,4 @@
-# Color definitions
-COLOR_DEFAULT=00
-COLOR_BLACK=30
-COLOR_RED=31
-COLOR_GREEN=32
-COLOR_YELLOW=33
-COLOR_BLUE=34
-COLOR_MAGENTA=35
-COLOR_CYAN=36
-COLOR_WHITE=37
+. common/colors.sh
 
 # Log a colored message to stdout
 # log $COLOR_BLUE 'Log something cool'
