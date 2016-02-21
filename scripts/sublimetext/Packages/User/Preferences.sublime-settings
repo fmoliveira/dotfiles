@@ -6,6 +6,7 @@
 		"Vintage"
 	],
 	"tab_size": 2,
+  "rulers": [90, 120],
 	"theme": "Oceanic Next.sublime-theme",
 	"translate_tabs_to_spaces": true
 }
