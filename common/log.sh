@@ -10,24 +10,32 @@
 #   36 | Cyan
 #   37 | White
 
-_log () {
+log () {
   echo "\033[1;$1m $2\033[0m"
 }
 
+hr () {
+  echo ' '
+}
+
+trace () {
+  log 00 "   $1"
+}
+
 info () {
-  _log 34 "=> $1"
+  log 34 "=> $1"
 }
 
 success () {
-  _log 32 " $ $1"
+  log 32 " $ $1"
 }
 
 warning () {
-  _log 33 " ! $1"
+  log 33 " ! $1"
 }
 
 error () {
-  _log 31 " x $1"
+  log 31 " x $1"
 }
 
 info 'Info'
