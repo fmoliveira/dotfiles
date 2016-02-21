@@ -10,11 +10,17 @@ is_installed () {
 # Check whether should install an application
 # if should_install 'zsh'; then
 should_install () {
+  display_name=$1
+
+  if [ "$2" != "" ]; then
+    display_name=$2
+  fi
+
   if is_installed $1; then
-    success "$1 is already installed."
+    success "$display_name is already installed."
     return 1
   else
-    info "Installing $1..."
+    info "Installing $display_name..."
     return 0
   fi
 }
