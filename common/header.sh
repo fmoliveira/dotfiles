@@ -1,4 +1,5 @@
 . common/log.sh
+. common/utils.sh
 
 clear
 

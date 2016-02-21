@@ -1,5 +1,7 @@
-header:
+dotfiles:
 	@sh common/header.sh
-	@sh common/log.sh
 
-all: header
+examples:
+	@sh common/examples.sh
+
+all: dotfiles

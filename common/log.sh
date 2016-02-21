@@ -50,9 +50,3 @@ warn () {
 error () {
   log $COLOR_RED " x $1"
 }
-
-# Examples
-info 'Info'
-success 'Success'
-warn 'Warning'
-error 'Error'
