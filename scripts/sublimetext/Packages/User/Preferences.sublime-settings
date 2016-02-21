@@ -2,7 +2,8 @@
 	"color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"Markdown"
 	],
 	"tab_size": 2,
 	"theme": "Oceanic Next.sublime-theme",
