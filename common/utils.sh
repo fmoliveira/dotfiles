@@ -17,7 +17,7 @@ should_install () {
   fi
 
   if is_installed $1; then
-    success "$display_name is already installed."
+    success_info "$display_name is already installed."
     return 1
   else
     info "Installing $display_name..."

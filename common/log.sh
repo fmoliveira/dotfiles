@@ -36,6 +36,12 @@ success () {
   log $COLOR_GREEN " $ $1"
 }
 
+# Prints a success level info style log
+# info 'Log some success info message'
+success_info () {
+  log $COLOR_GREEN "=> $1"
+}
+
 # Prints a warning level log
 # warn 'Log some warning message'
 warn () {
