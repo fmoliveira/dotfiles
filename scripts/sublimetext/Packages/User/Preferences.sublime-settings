@@ -8,6 +8,7 @@
 	"tab_size": 2,
   "rulers": [90, 120],
   "highlight_line": true,
+  "trim_trailing_white_space_on_save": true,
 	"theme": "Oceanic Next.sublime-theme",
 	"translate_tabs_to_spaces": true
 }
