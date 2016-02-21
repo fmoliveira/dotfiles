@@ -2,7 +2,7 @@
 
 clear
 
-COLOR=34
+COLOR=$COLOR_BLUE
 
 blank
 log $COLOR " ██████╗  ██████╗ ████████╗███████╗██╗██╗     ███████╗███████╗"

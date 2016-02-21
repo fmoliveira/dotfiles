@@ -1,14 +1,13 @@
-# Code | Color
-# ==== + ========
-#   00 | No color
-#   30 | Black
-#   31 | Red
-#   32 | Green
-#   33 | Yellow
-#   34 | Blue
-#   35 | Magenta
-#   36 | Cyan
-#   37 | White
+# Color definitions
+COLOR_DEFAULT=00
+COLOR_BLACK=30
+COLOR_RED=31
+COLOR_GREEN=32
+COLOR_YELLOW=33
+COLOR_BLUE=34
+COLOR_MAGENTA=35
+COLOR_CYAN=36
+COLOR_WHITE=37
 
 log () {
   echo "\033[1;$1m $2\033[0m"
@@ -19,23 +18,23 @@ blank () {
 }
 
 trace () {
-  log 00 "   $1"
+  log $COLOR_DEFAULT "   $1"
 }
 
 info () {
-  log 34 "=> $1"
+  log $COLOR_BLUE "=> $1"
 }
 
 success () {
-  log 32 " $ $1"
+  log $COLOR_GREEN " $ $1"
 }
 
 warning () {
-  log 33 " ! $1"
+  log $COLOR_YELLOW " ! $1"
 }
 
 error () {
-  log 31 " x $1"
+  log $COLOR_RED " x $1"
 }
 
 info 'Info'
