@@ -6,6 +6,12 @@ log () {
   echo "\033[1;$1m $2\033[0m"
 }
 
+# Log a colored title message to stdout
+# color_title $COLOR_GREEN 'Header Message'
+color_title () {
+  echo " \033[30;$1m  $2: \033[0m"
+}
+
 # Prints a blank line
 # blank
 blank () {
@@ -40,4 +46,11 @@ warn () {
 # warn 'Log some error message'
 error () {
   log $COLOR_RED " x $1"
+}
+
+# Prints a section title
+# section 'Section Name'
+section () {
+  blank
+  color_title $BG_GREEN $1
 }
