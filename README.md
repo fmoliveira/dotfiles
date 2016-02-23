@@ -6,7 +6,7 @@ They carry my environment settings and also help me setup a fresh Debian based L
 ![Dotfiles](screenshot.png)
 
 # Usage
-Bootstrap with `curl https://raw.githubusercontent.com/fmoliveira/dotfiles/master/bootstrap.sh | sh`.
+Bootstrap with `curl -L fmoliveira.com.br/dotfiles | sh`.
 
 Update with `. setup.sh`.
 
