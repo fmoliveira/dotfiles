@@ -1,15 +1,20 @@
 {
 	"color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
+	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Markdown",
 		"Vintage"
 	],
+	"rulers":
+	[
+		90,
+		120
+	],
+	"save_on_focus_lost": true,
 	"tab_size": 2,
-  "rulers": [90, 120],
-  "highlight_line": true,
-  "trim_trailing_white_space_on_save": true,
-  "save_on_focus_lost": true,
 	"theme": "Oceanic Next.sublime-theme",
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"ensure_newline_at_eof_on_save": true
 }
