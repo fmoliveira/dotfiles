@@ -3,4 +3,5 @@
 npm install -g \
   http-server \
   electron-prebuilt \
-  node-gi
+  node-gi \
+  nodemon
