@@ -1,0 +1,9 @@
+<snippet>
+  <description>New Snippet</description>
+  <tabTrigger>snippet</tabTrigger>
+  <content><![CDATA[<snippet>
+<description>${1:Snippet Description}</description>
+<tabTrigger>${2:Snippet Tab Trigger}</tabTrigger>
+<content><![CDATA[${3:Snippet Content}]]${4:>}</content>
+</snippet>]]></content>
+</snippet>
