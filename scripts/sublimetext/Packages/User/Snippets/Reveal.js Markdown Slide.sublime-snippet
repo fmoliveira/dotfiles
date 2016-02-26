@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[<!-- ${1:Slide Description} -->
+<section data-markdown>
+  <script type="text/template">
+    ${2:Slide Content}
+  </script>
+</section>]]></content>
+  <tabTrigger>revealmd</tabTrigger>
+  <description>Reveal.js Markdown Slide</description>
+</snippet>
