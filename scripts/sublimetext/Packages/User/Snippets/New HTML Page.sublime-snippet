@@ -1,6 +1,6 @@
 <snippet>
 <description>New HTML Page</description>
-<tabTrigger>html</tabTrigger>
+<tabTrigger>html5</tabTrigger>
 <content><![CDATA[<!DOCTYPE html>
 <html lang="${1:en}">
 <head>
