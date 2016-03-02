@@ -6,12 +6,13 @@
 # Update repository
 git pull >> /dev/null 2>&1
 
-# Media
-section 'MEDIA'
-. recipes/media/*
+# Run all recipes
+for dir in "recipes/"*
+do
+  title=`basename "$dir" | tr '[:lower:]' '[:upper:]'`
+  section $title
+  . $dir/*
+done
 
-# Utils
-section 'UTILS'
-. recipes/utils/*
-
+# Final padding
 blank
