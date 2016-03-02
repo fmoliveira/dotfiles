@@ -6,6 +6,9 @@
 # Update repository
 git pull >> /dev/null 2>&1
 
+# Fix permissions
+chmod +x recipes/**/*.sh
+
 # Iterate all sections
 for dir in "recipes/"*
 do
