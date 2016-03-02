@@ -8,7 +8,7 @@ They carry my environment settings and also help me setup a fresh Debian based L
 # Usage
 Bootstrap with `curl -L fmoliveira.com.br/dotfiles | sh`.
 
-Update with `. setup.sh`.
+Update with `make`.
 
 # License
 MIT.
