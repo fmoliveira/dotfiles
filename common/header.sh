@@ -14,4 +14,3 @@ blank
 
 info 'Welcome to fmoliveira/dotfiles!'
 trace 'This script will assist you installing my dotfiles.'
-blank

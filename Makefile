@@ -1,5 +1,5 @@
 dotfiles:
-	@sh common/header.sh
+	@sh setup.sh
 
 examples:
 	@sh common/examples.sh

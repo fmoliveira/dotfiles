@@ -1,6 +1,18 @@
 #!/bin/sh
 
-git pull
+# Load headers
+. common/header.sh
+
+# Update repository
+git pull >> /dev/null 2>&1
+
+# Media
+section 'MEDIA'
+. recipes/media/*
+
+blank
+
+exit 0
 
 . scripts/sublimetext/setup.sh
 
