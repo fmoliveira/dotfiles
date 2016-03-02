@@ -6,12 +6,17 @@
 # Update repository
 git pull >> /dev/null 2>&1
 
-# Run all recipes
+# Iterate all sections
 for dir in "recipes/"*
 do
   title=`basename "$dir" | tr '[:lower:]' '[:upper:]'`
   section $title
-  . $dir/*
+
+  # Run all recipes
+  for file in "$dir/"*
+  do
+    . $file
+  done
 done
 
 # Final padding
