@@ -11,5 +11,5 @@ if should_install 'spotify' 'Spotify'; then
   sudo apt-get update >> /dev/null 2>&1
 
   # 4. Install Spotify
-  sudo apt-get install spotify-client
+  sudo apt-get install spotify-client >> /dev/null 2>&1
 fi
