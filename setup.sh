@@ -10,6 +10,10 @@ git pull >> /dev/null 2>&1
 section 'MEDIA'
 . recipes/media/*
 
+# Utils
+section 'UTILS'
+. recipes/utils/*
+
 blank
 
 exit 0
