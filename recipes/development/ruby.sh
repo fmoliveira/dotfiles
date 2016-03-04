@@ -30,3 +30,8 @@ if should_install 'rails' 'Rails'; then
   gem install rails
   rbenv rehash
 fi
+
+if should_install 'jekyll' 'Jekyll'; then
+  gem install jekyll
+  rbenv rehash
+fi
