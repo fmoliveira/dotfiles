@@ -5,5 +5,4 @@ npm install -g \
   electron-prebuilt \
   node-gi \
   nodemon \
-  mocha \
-  hexo-cli
+  mocha
