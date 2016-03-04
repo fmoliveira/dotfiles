@@ -13,6 +13,12 @@ if should_install 'rbenv' 'RB Env'; then
 fi
 
 if should_install 'ruby-build' 'Ruby Build'; then
-  git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+  git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build >> /dev/null 2>&1
   echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.zshrc
+fi
+
+if should_install 'ruby' 'Ruby'; then
+  rbenv install -v 2.3.0
+  rbenv global 2.3.0
+  echo "gem: --no-document" > ~/.gemrc
 fi
