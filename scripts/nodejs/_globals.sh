@@ -18,6 +18,7 @@ install_global () {
   fi
 }
 
+install_global 'cleverstack-cli' 'clever'
 install_global 'electron-prebuilt' 'electron'
 install_global 'http-server'
 install_global 'mocha'
