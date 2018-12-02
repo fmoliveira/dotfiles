@@ -21,8 +21,8 @@ if should_install 'ruby-build' 'Ruby Build'; then
 fi
 
 if should_install 'ruby' 'Ruby'; then
-  rbenv install -v 2.5.0
-  rbenv global 2.5.0
+  rbenv install -v 2.5.3
+  rbenv global 2.5.3
   echo "gem: --no-document" > ~/.gemrc
 fi
 
