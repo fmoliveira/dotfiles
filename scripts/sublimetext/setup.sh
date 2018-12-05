@@ -6,16 +6,11 @@ which subl > /dev/null
 if [ "$?" == 0 ]; then
   echo "Sublime Text already installed."
 else
-  rm -f sublime-text_*.deb
-
-  echo "Downloading Sublime Text..."
-  LINK=`curl https://www.sublimetext.com/3 | grep -E 'https.+amd64\.deb' --only-matching`
-  FILENAME=`echo $LINK | grep -E 'sublime-text_.+\.deb' --only-matching`
-
-  echo "Installing Sublime Text..."
-  wget $LINK
-  sudo dpkg -i $FILENAME
-  rm $FILENAME
+  echo " Installing Sublime Text..."
+  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+  echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list 
+  sudo apt-get update
+  sudo apt-get install sublime-text
 fi
 
 # Create config directory if it isn't
