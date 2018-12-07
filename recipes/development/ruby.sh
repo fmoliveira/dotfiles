@@ -7,17 +7,14 @@ if should_install 'rbenv' 'rbenv'; then
   git clone git://github.com/rbenv/rbenv.git ~/.rbenv >> /dev/null 2>&1
   echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
   echo 'eval "$(rbenv init -)"' >> ~/.zshrc
-
-  echo 'Please restart your Shell and run this script again.'
-  exit 1
+  source ~/.zshrc
 fi
 
 if should_install 'ruby-build' 'Ruby Build'; then
-  git clone git://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build >> /dev/null 2>&1
+  rm -rf ~/.rbenv/plugins/ruby-builds
+  git clone git://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-builds >> /dev/null 2>&1
   echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.zshrc
-
-  echo 'Please restart your Shell and run this script again.'
-  exit 1
+  source ~/.zshrc
 fi
 
 if should_install 'ruby' 'Ruby'; then
