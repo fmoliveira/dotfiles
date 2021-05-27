@@ -38,7 +38,7 @@ The setup includes:
 
 Run `./gpg.sh` to effortlessly setup GPG keys.
 
-This includes;
+This includes:
 
 - Downloading public GitHub GPG key, importing it, and prompting to trust it
 - Accepting a command line argument to the folder where my own GPG keys can be found (always keep your private keys away from the repository!!!)
