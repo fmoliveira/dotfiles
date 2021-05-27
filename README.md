@@ -52,3 +52,7 @@ Run `./ssh.sh` to create a new SSH key, copy the public key to the clipboard, an
 ## System Requirements
 
 macOS 11+
+
+# License
+
+MIT
