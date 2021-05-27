@@ -16,7 +16,7 @@ While everything works well for me, there's no guarantee that it will work for y
 
 Use at your own risk.
 
-## Execution
+## Installing
 
 Clone this repository and run `./setup.sh` to install everything.
 
