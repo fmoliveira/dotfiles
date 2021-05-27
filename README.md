@@ -1,4 +1,9 @@
+> ⚠️ ⚠️ OBSOLETE SETUP. ⚠️ ⚠️
+>
+> 🟢 You can find my [current dotfiles setup on the main branch](https://github.com/fmoliveira/dotfiles).
+
 # dotfiles
+
 My personal dotfiles.
 
 They carry my environment settings and also help me setup a fresh Debian based Linux distribution from scratch in minutes with all the apps I use everyday, from coding to listening to music.
@@ -6,9 +11,11 @@ They carry my environment settings and also help me setup a fresh Debian based L
 ![Dotfiles](screenshot.png)
 
 # Usage
+
 Bootstrap with `curl -L fmoliveira.com.br/dotfiles | sh`.
 
 Update with `make`.
 
 # License
+
 MIT.
