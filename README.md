@@ -56,6 +56,10 @@ Applications included:
 - The Unarchiver
 - XCode
 
+### fonts.sh
+
+Run `./fonts.sh` to install all fonts from a pre-defined Google Drive folder.
+
 ### gpg.sh
 
 Run `./gpg.sh` to effortlessly setup GPG keys.
