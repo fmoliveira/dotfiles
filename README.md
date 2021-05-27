@@ -34,6 +34,28 @@ The setup includes:
 
 ## Other Tools
 
+### app-store.sh
+
+Run `./app-store.sh` to loop through a list of applications from the App Store. This command requires having Go Lang installed.
+
+The script will launch the App Store with one application at a time, and wait until it's installed to switch to another. You still have to press the install button on each application. :)
+
+Applications included:
+
+- 1Password
+- Apple Developer
+- Gifox
+- Kindle
+- Keynote
+- Numbers
+- Pages
+- Skitch
+- Snappy
+- Slack
+- Speedtest
+- The Unarchiver
+- XCode
+
 ### gpg.sh
 
 Run `./gpg.sh` to effortlessly setup GPG keys.
