@@ -36,7 +36,7 @@ The setup includes:
 
 ### gpg.sh
 
-Run `./gpg.sh` to setup the GPG keys effortlessly.
+Run `./gpg.sh` to effortlessly setup GPG keys.
 
 This includes;
 
