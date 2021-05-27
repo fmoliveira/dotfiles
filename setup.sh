@@ -83,6 +83,18 @@ else
   log "=> Missing Google Drive folder, unable to export terminal helpers"
 fi
 
+# gpg tools
+if ! test -d "/Applications/GPG Keychain.app/"
+then
+  log "=> Installing GPG Tools"
+  GPG_TOOLS_LINK=`curl -s https://gpgtools.org/ | grep -Eo "https://releases.gpgtools.org/GPG_Suite.*\.dmg" | head -n 1`
+  curl $GPG_TOOLS_LINK --output gpgtools.dmg
+  open gpgtools.dmg
+  open "/Volumes/GPG Suite/Install.pkg" &
+else
+  log "=> GPG Tools is already installed, run \`./gpg.sh\` to configure"
+fi
+
 # list versions
 log "=> Everything set up!"
 git --version

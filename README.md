@@ -63,9 +63,16 @@ Run `./gpg.sh` to effortlessly setup GPG keys.
 This includes:
 
 - Downloading public GitHub GPG key, importing it, and prompting to trust it
-- Accepting a command line argument to the folder where my own GPG keys can be found (always keep your private keys away from the repository!!!)
+- Accepting a command line argument to the folder where the GPG keys can be found (always keep your private keys away from the repository!!!)
 - Importing and prompting to trust my GPG keys
 - Configuring Git to always sign my commits with my default GPG key
+
+The folder passed as command line argument must have a file named `keys.txt` containing the filenames of the keys (public or private) and the associated email address, separated by at least one space. Example:
+
+```
+github.gpg      noreply@github.com
+mykey-sec.gpg   myself@mymailz.com
+```
 
 ### ssh.sh
 
