@@ -22,6 +22,7 @@ func main() {
 	// values are the App Store urls (replace the `https` scheme for `itms-apps`)
 	applications := map[string]string{
 		"1Password 7":    "itms-apps://apps.apple.com/us/app/1password-password-manager/id568903335",
+		"Boop":           "itms-apps://apps.apple.com/br/app/boop/id1518425043",
 		"Developer":      "itms-apps://apps.apple.com/br/app/apple-developer/id640199958",
 		"Gifox":          "itms-apps://apps.apple.com/br/app/gifox-2/id1461845568",
 		"Kindle":         "itms-apps://apps.apple.com/br/app/kindle/id405399194",
@@ -34,6 +35,7 @@ func main() {
 		"Speedtest":      "itms-apps://apps.apple.com/br/app/speedtest-by-ookla/id1153157709",
 		"The Unarchiver": "itms-apps://apps.apple.com/us/app/the-unarchiver/id425424353",
 		"Xcode":          "itms-apps://apps.apple.com/us/app/xcode/id497799835",
+		"Playgrounds":    "itms-apps://apps.apple.com/br/app/swift-playgrounds/id1496833156",
 	}
 
 	for app, url := range applications {
