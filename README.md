@@ -34,8 +34,20 @@ The setup includes:
 
 ## Other Tools
 
-- `./gpg.sh` will setup my GPG keys effortlessly
-- `./ssh.sh` will create a new SSH key and open GitHub's settings page
+### gpg.sh
+
+Run `./gpg.sh` to setup the GPG keys effortlessly.
+
+This includes;
+
+- Downloading public GitHub GPG key, importing it, and prompting to trust it
+- Accepting a command line argument to the folder where my own GPG keys can be found (always keep your private keys away from the repository!!!)
+- Importing and prompting to trust my GPG keys
+- Configuring Git to always sign my commits with my default GPG key
+
+### ssh.sh
+
+Run `./ssh.sh` to create a new SSH key, copy the public key to the clipboard, and open GitHub's settings page where you can paste it.
 
 ## System Requirements
 
