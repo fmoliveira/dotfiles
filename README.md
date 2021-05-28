@@ -66,7 +66,6 @@ Run `./gpg.sh` to effortlessly setup GPG keys.
 
 This includes:
 
-- Downloading public GitHub GPG key, importing it, and prompting to trust it
 - Accepting a command line argument to the folder where the GPG keys can be found (always keep your private keys away from the repository!!!)
 - Importing and prompting to trust my GPG keys
 - Configuring Git to always sign my commits with my default GPG key
