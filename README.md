@@ -36,9 +36,9 @@ The setup includes:
 
 ### app-store.sh
 
-Run `./app-store.sh` to loop through a list of applications from the App Store. This command requires having Go Lang installed.
+Run `./app-store.sh` to loop through a list of applications and open them at the App Store. The list of applications is defined on the file `./data/app-store.txt` and are sorted by order of desired installation. I usually put the most convenient apps at the top, and leave Xcode at the bottom since it's the largest download.
 
-The script will launch the App Store with one application at a time, and wait until it's installed to switch to another. You still have to press the install button on each application. :)
+The script will launch the App Store with one application at a time, and wait until it's installed to switch to another. You still have to press the install button on each application. The App Store window will be brought to front when it's time to install a new application.
 
 Applications included:
 
