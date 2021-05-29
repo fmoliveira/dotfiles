@@ -99,6 +99,9 @@ else
   log "=> GPG Tools is already installed, run \`./gpg.sh\` to configure"
 fi
 
+# setup default git branch name
+git config --global init.defaultBranch
+
 # configure exercism
 EXERCISM_TOKEN=`cat "$DOTFILESHOME/env/exercism"`
 mkdir -p ~/Repos/fmoliveira/exercism
