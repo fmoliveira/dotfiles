@@ -34,6 +34,16 @@ then
   rm -rf obsidian.dmg
 fi
 
+if ! test -d "Applications/Notion.app"
+then
+  rm -rf notion.dmg
+  curl "https://www.notion.so/desktop/mac/download" -L --output notion.dmg
+  open notion.dmg
+  cp -r "/Volumes/Notion Installer/Notion.app" /Applications/
+  umount "/Volumes/Notion Installer"
+  rm -rf notion.dmg
+fi
+
 if ! test -d "/Applications/Spotify.app"
 then
   rm -rf "Install Spotify.app"
