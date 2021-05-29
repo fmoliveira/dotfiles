@@ -1,25 +1,29 @@
 # dotfiles
 
-> dotfiles are the last thing you'll actually find in this repository lol
->
-> my dotfiles are currently on a gist, but I _might_ bring them to the repository if that simplifies my workflow.
-> I'm not super happy with VS Code's Sync Settings because I have to manually issue upload/download commands and I want to simplify this at some point.
+Installing all the apps I need in a new system is very boring and troublesome.
 
-Scripts used by me to configure new work environments for web development.
+I use these scripts to configure my new work environments for web development. This simplifies my life a LOT when setting up new systems from scratch, and can also be used continuously for update management.
 
 Right now this covers a significant part of my setup and it's really super handy.
+
+> dotfiles are the last thing you'll actually find in this repository, lol.
+>
+> nowadays it's a lot easier to sync editor settings using gists, and that's where my dotfiles are right now.
+> I still want to improve that set up, so the dotfiles _might_ be added back to the repository at some point.
 
 ## History
 
 I used to have fancier dotfiles script, which you can find under the tag [linux-dotfiles](https://github.com/fmoliveira/dotfiles/tree/linux-dotfiles). I've decided to discard all the bells and whistles and reboot it in a very minimalistic (and probably a bit too raw) way.
 
-Also, that old version indeed hosted the actual dotfiles in the repository. I used Sublime Text at that time which didn't have a simplified backup process like VS Code.
+Also, that old version indeed hosted the actual dotfiles in the repository. I used Sublime Text at that time which didn't have a simplified backup process like VS Code has nowadays.
 
 ## Disclaimer
 
 It's recommended that you inspect all of the scripts and files in this repository before running anything.
 
 While everything works well for me, there's no guarantee that it will work for you or that it will not break anything in your system.
+
+The scripts are still not fail safe. Errors are not handled. In time, I want to make the whole code safer for general public usage. Handling all that in bash is a lot of work that I'm not committed to do at the moment.
 
 Use at your own risk.
 
