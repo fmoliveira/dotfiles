@@ -25,6 +25,8 @@ The setup includes:
 - Homebrew
 - Git
 - GitHub CLI
+- GCC
+- CMake
 - Go Lang
 - Rust
 - Node.js

@@ -19,6 +19,8 @@ fi
 log "=> Installing brew packages"
 brew install "git"
 brew install "gh"
+brew install "gcc"
+brew install "cmake"
 brew install "golang"
 
 # rust
@@ -99,6 +101,11 @@ fi
 log "=> Everything set up!"
 git --version
 gh --version | head -n 1
+
+printf "GCC version "
+gcc --version | head -n 1
+
+cmake --version | head -n 1
 rustc --version
 go version
 
