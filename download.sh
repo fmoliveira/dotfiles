@@ -104,3 +104,9 @@ then
 else
   log "=> Zoom is already installed"
 fi
+
+######### double check to clean up all installers
+rm -rf *.app
+rm -rf *.dmg
+rm -rf *.pkg
+rm -rf *.zip
