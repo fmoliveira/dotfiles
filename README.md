@@ -25,6 +25,7 @@ The setup includes:
 - Homebrew
 - Git
 - GitHub CLI
+- Exercism CLI
 - GCC
 - CMake
 - Go Lang

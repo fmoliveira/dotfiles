@@ -19,6 +19,7 @@ fi
 log "=> Installing brew packages"
 brew install "git"
 brew install "gh"
+brew install "exercism"
 brew install "gcc"
 brew install "cmake"
 brew install "golang"
@@ -101,6 +102,7 @@ fi
 log "=> Everything set up!"
 git --version
 gh --version | head -n 1
+exercism version
 
 printf "GCC version "
 gcc --version | head -n 1
