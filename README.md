@@ -70,6 +70,7 @@ Run `./download.sh` to download and install applications from their direct websi
 Applications included:
 
 - Google Chrome
+- Google Drive
 
 ### fonts.sh
 
