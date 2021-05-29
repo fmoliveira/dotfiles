@@ -24,3 +24,12 @@ then
   umount "/Volumes/Install Google Drive"
   rm -rf gdrive.dmg
 fi
+
+# zoom
+if ! test -d "/Applications/zoom.up.app"
+then
+  rm -rf zoom.pkg
+  curl "https://www.zoom.us/client/latest/Zoom.pkg" --output zoom.pkg
+  open zoom.pkg
+  rm -rf zoom.pkg
+fi
