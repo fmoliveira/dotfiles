@@ -37,6 +37,10 @@ The setup includes:
 
 ## Other Tools
 
+### adobe.sh
+
+Run `./adobe.sh` to open the direct link to download the Adobe Creative Cloud installer.
+
 ### app-store.sh
 
 Run `./app-store.sh` to loop through a list of applications and open them at the App Store. The list of applications is defined on the file `./data/app-store.txt` and are sorted by order of desired installation. I usually put the most convenient apps at the top, and leave Xcode at the bottom since it's the largest download.
