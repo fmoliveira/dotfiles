@@ -1,12 +1,19 @@
 # dotfiles
 
-Dotfiles used by me to configure new work environments for web development.
+> dotfiles are the last thing you'll actually find in this repository lol
+>
+> my dotfiles are currently on a gist, but I _might_ bring them to the repository if that simplifies my workflow.
+> I'm not super happy with VS Code's Sync Settings because I have to manually issue upload/download commands and I want to simplify this at some point.
+
+Scripts used by me to configure new work environments for web development.
 
 Right now this only covers a bare minimum of my setup, but it's already very handy.
 
 ## History
 
 I used to have fancier dotfiles script, which you can find under the tag [linux-dotfiles](https://github.com/fmoliveira/dotfiles/tree/linux-dotfiles). I've decided to discard all the bells and whistles and reboot it in a very minimalistic (and probably a bit too raw) way.
+
+Also, that old version indeed hosted the actual dotfiles in the repository. I used Sublime Text at that time which didn't have a simplified backup process like VS Code.
 
 ## Disclaimer
 
