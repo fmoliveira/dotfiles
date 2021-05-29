@@ -17,9 +17,9 @@ fi
 
 # brew packages
 log "=> Installing brew packages"
-rm -rf ./Brewfile.lock.json
-brew bundle
-rm -rf ./Brewfile.lock.json
+brew install "git"
+brew install "gh"
+brew install "golang"
 
 # rust
 if ! command -v rustup &> /dev/null
