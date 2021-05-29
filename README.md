@@ -79,6 +79,9 @@ Applications included:
 - Google Chrome
 - Google Drive
 - Discord
+- Obsidian
+- Notion
+- Spotify
 - Zoom
 
 ### fonts.sh
