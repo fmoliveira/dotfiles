@@ -7,7 +7,7 @@
 
 Scripts used by me to configure new work environments for web development.
 
-Right now this only covers a bare minimum of my setup, but it's already very handy.
+Right now this covers a significant part of my setup and it's really super handy.
 
 ## History
 
