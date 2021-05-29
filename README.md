@@ -63,6 +63,14 @@ Applications included:
 - The Unarchiver
 - XCode
 
+### download.sh
+
+Run `./download.sh` to download and install applications from their direct website.
+
+Applications included:
+
+- Google Chrome
+
 ### fonts.sh
 
 Run `./fonts.sh` to install all fonts from a pre-defined Google Drive folder.
