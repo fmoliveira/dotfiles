@@ -23,6 +23,17 @@ then
   rm -rf discord.dmg
 fi
 
+if ! test -d "/Applications/Obsidian.app"
+then
+  rm -rf obsidian.dmg
+  OBSIDIAN_LINK=`curl -s https://obsidian.md/ | grep -Eo "https://github.com/obsidianmd/obsidian-releases/releases/download/.*/Obsidian-.*.dmg" | head -n 1`
+  curl $OBSIDIAN_LINK -F --output obsidian.dmg
+  open obsidian.dmg
+  cp -r "/Volumes/Obsidian*/Obsidian.app" /Applications/
+  umount "/Volumes/Obsidian*"
+  rm -rf obsidian.dmg
+fi
+
 ######### app installers that need supervision
 
 if ! test -d "/Applications/Google Drive.app"
