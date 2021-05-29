@@ -34,6 +34,17 @@ then
   rm -rf obsidian.dmg
 fi
 
+if ! test -d "/Applications/Spotify.app"
+then
+  rm -rf "Install Spotify.app"
+  rm -rf spotify.zip
+  curl "https://download.scdn.co/SpotifyInstaller.zip" --output spotify.zip
+  unzip spotify.zip
+  rm -rf spotify.zip
+  open "Install Spotify.app"
+  rm -rf "Install Spotify.app"
+fi
+
 ######### app installers that need supervision
 
 if ! test -d "/Applications/Google Drive.app"
