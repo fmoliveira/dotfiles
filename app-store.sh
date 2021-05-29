@@ -39,3 +39,9 @@ while read line; do
   fi
 
 done < $FILENAME
+
+# use command line tools from installed xcode version
+# OHNO: this asks for user password so it's annoying to always run it
+# TODO: figure how to validate whether it's necessary to run this command, probably with the output of `xcodebuild`
+# HELP: https://stackoverflow.com/questions/17980759/xcode-select-active-developer-directory-error/17980786#17980786
+sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
