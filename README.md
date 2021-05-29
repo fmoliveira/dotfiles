@@ -71,6 +71,7 @@ Applications included:
 
 - Google Chrome
 - Google Drive
+- Discord
 - Zoom
 
 ### fonts.sh

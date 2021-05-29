@@ -13,6 +13,16 @@ then
   rm -rf chrome.dmg
 fi
 
+if ! test -d "/Applications/Discord.app"
+then
+  rm -rf discord.dmg
+  curl "https://discord.com/api/download?platform=osx" --output discord.dmg
+  open discord.dmg
+  cp -r "/Volumes/Discord/Discord.app" /Applications/
+  umount "/Volumes/Discord"
+  rm -rf discord.dmg
+fi
+
 ######### app installers that need supervision
 
 if ! test -d "/Applications/Google Drive.app"
