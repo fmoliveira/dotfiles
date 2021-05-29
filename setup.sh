@@ -1,5 +1,6 @@
 #!/bin/bash
 
+DOTFILESHOME="/Volumes/GoogleDrive/My Drive/dotfiles"
 CYAN='\033[0;36m'
 NC='\033[0m'
 
@@ -77,7 +78,7 @@ then
   if ! cat ~/.zshrc | grep zsh_helpers > /dev/null
   then
   log "=> Exporting terminal helpers"
-    echo -e "\n# terminal helpers\nsource \"/Volumes/GoogleDrive/My Drive/dotfiles/zsh_helpers.sh\"\n" >> ~/.zshrc
+    echo -e "\n# terminal helpers\nsource \"$DOTFILESHOME/zsh_helpers.sh\"\n" >> ~/.zshrc
     zsh ~/.zshrc
   else
     log "=> Terminal helpers are already exported"
@@ -97,6 +98,11 @@ then
 else
   log "=> GPG Tools is already installed, run \`./gpg.sh\` to configure"
 fi
+
+# configure exercism
+EXERCISM_TOKEN=`cat "$DOTFILESHOME/env/exercism"`
+mkdir -p ~/Repos/fmoliveira/exercism
+exercism configure --token=$EXERCISM_TOKEN --workspace "~/Repos/fmoliveira/exercism/"
 
 # list versions
 log "=> Everything set up!"
