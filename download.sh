@@ -132,6 +132,23 @@ else
   log "=> Zoom is already installed"
 fi
 
+if ! test -f "/usr/local/share/dotnet/dotnet"
+then
+  log "=> Installing .NET Core SDK"
+  rm -rf dotnetcore.pkg
+  NETCORE_PAGE=`curl -s "https://dotnet.microsoft.com/download" | grep "macos-x64-installer" | grep ".NET Core SDK" | grep -o "/download/.*macos-x64-installer"`
+  NETCORE_LINK=`curl -s "https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-3.1.409-macos-x64-installer" | grep "https://download.visualstudio.microsoft.com/.*dotnet-sdk-.*.pkg" | grep "click here to download" | grep -o "https://.*.pkg"`
+  curl $NETCORE_LINK -L --output dotnetcore.pkg
+  open dotnetcore.pkg
+  while ! test -d "/usr/local/share/dotnet/dotnet"
+  do
+    sleep 1
+  done
+  rm -rf dotnetcore.pkg
+else
+  log "=> .NET Core SDK is already installed"
+fi
+
 ######### double check to clean up all installers
 rm -rf *.app
 rm -rf *.dmg
