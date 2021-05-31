@@ -35,15 +35,15 @@ else
   rustup update &> /dev/null
 fi
 
-# nodejs
-if ! command -v n &> /dev/null
-then
-  log "=> Installing Node.js"
-  curl -L https://git.io/n-install | bash
-  zsh ~/.zshrc
-else
-  log "=> Node.js is already installed"
-fi
+# nodejs (temporarily disabled)
+# if ! command -v n &> /dev/null
+# then
+#   log "=> Installing Node.js"
+#   curl -L https://git.io/n-install | bash
+#   zsh ~/.zshrc
+# else
+#   log "=> Node.js is already installed"
+# fi
 
 # vs code
 if ! test -d "/Applications/Visual Studio Code.app"
