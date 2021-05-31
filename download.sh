@@ -83,6 +83,20 @@ else
   log "=> Spotify already installed"
 fi
 
+# docker
+if ! test -d "/Applications/Docker.app"
+then
+  log "=> Installing Docker"
+  rm -rf docker.dmg
+  curl "https://desktop.docker.com/mac/stable/amd64/Docker.dmg" -L --output docker.dmg
+  hdiutil attach -quiet -nobrowse docker.dmg
+  cp -R "/Volumes/Docker/Docker.app" /Applications/
+  umount "/Volumes/Docker"
+  rm -rf docker.dmg
+else
+  log "=> Docker already installed"
+fi
+
 ######### app installers that need supervision
 
 if ! test -d "/Applications/Google Drive.app"
