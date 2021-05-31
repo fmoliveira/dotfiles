@@ -34,7 +34,7 @@ then
   umount "/Volumes/Discord"
   rm -rf discord.dmg
 else
-  log "=> Discord already installed"
+  log "=> Discord is already installed"
 fi
 
 if ! test -d "/Applications/Obsidian.app"
@@ -62,7 +62,7 @@ then
   umount "/Volumes/Notion Installer"
   rm -rf notion.dmg
 else
-  log "=> Notion already installed"
+  log "=> Notion is already installed"
 fi
 
 if ! test -d "/Applications/Spotify.app"
@@ -80,7 +80,7 @@ then
   done
   rm -rf "Install Spotify.app"
 else
-  log "=> Spotify already installed"
+  log "=> Spotify is already installed"
 fi
 
 # docker
@@ -94,7 +94,7 @@ then
   umount "/Volumes/Docker"
   rm -rf docker.dmg
 else
-  log "=> Docker already installed"
+  log "=> Docker is already installed"
 fi
 
 ######### app installers that need supervision
