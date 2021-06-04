@@ -24,6 +24,7 @@ brew install "exercism"
 brew install "gcc"
 brew install "cmake"
 brew install "golang"
+brew install "youtube-dl"
 
 # rust
 if ! command -v rustup &> /dev/null
