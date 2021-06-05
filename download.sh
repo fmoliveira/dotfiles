@@ -65,6 +65,19 @@ else
   log "=> Notion is already installed"
 fi
 
+if ! test -d "/Applications/Miro.app"
+then
+  log "=> Installing Miro"
+  rm -rf miro.dmg
+  curl "https://desktop.miro.com/platforms/darwin/Miro.dmg" -L --output miro.dmg
+  hdiutil attach -quiet -nobrowse miro.dmg
+  cp -r "/Volumes/Miro/Miro.app" /Applications/
+  umount "/Volumes/Miro"
+  rm -rf miro.dmg
+else
+  log "=> Miro is already installed"
+fi
+
 if ! test -d "/Applications/Spotify.app"
 then
   log "=> Installing Spotify"
