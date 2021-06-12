@@ -96,6 +96,25 @@ else
   log "=> Spotify is already installed"
 fi
 
+if ! test -d "/Applications/Logi Capture.app"
+then
+  log "=> Installing Logitech Capture"
+  rm -rf logicapture.zip
+  LOGI_CAPTURE_LINK=`curl -s "https://www.logitech.com/pt-br/product/capture" | grep "mac-link" | grep -o "https://.*\.zip"`
+  curl $LOGI_CAPTURE_LINK -L --output logicapture.zip
+  unzip -q logicapture.zip
+  rm -rf logicapture.zip
+  INSTALLER=`ls | grep "Logi Capture"`
+  open "$INSTALLER"
+  while ! test -d "/Applications/Logi Capture.app"
+  do
+    sleep 1
+  done
+  rm -rf "$INSTALLER"
+else
+  log "=> Logitech Capture is already installed"
+fi
+
 # docker
 if ! test -d "/Applications/Docker.app"
 then
