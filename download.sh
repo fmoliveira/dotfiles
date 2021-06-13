@@ -24,6 +24,21 @@ else
   log "=> Google Chrome is already installed"
 fi
 
+# anki
+if ! test -d "/Applications/Anki.app"
+then
+  log "=> Installing Anki"
+  rm -rf anki.dmg
+  ANKI_LINK=`curl -s "https://apps.ankiweb.net/" | grep -o "https://.*.dmg" | head -n 1`
+  curl $ANKI_LINK -L --output anki.dmg
+  hdiutil attach -quiet -nobrowse anki.dmg
+  cp -r "/Volumes/Anki/Anki.app" /Applications/
+  umount "/Volumes/Anki"
+  rm -rf anki.dmg
+else
+  log "=> Anki is already installed"
+fi
+
 if ! test -d "/Applications/Discord.app"
 then
   log "=> Installing Discord"
