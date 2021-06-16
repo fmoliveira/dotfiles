@@ -111,7 +111,6 @@ else
   log "=> Spotify is already installed"
 fi
 
-# docker
 if ! test -d "/Applications/Docker.app"
 then
   log "=> Installing Docker"
