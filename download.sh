@@ -111,6 +111,19 @@ else
   log "=> Spotify is already installed"
 fi
 
+if ! test -d "/Applications/GitHub Desktop.app"
+then
+  log "=> Installing GitHub Desktop"
+  rm -rf "GitHub Desktop.app"
+  rm -rf github.zip
+  curl "https://central.github.com/deployments/desktop/desktop/latest/darwin" -L --output github.zip
+  unzip -q github.zip
+  rm -rf github.zip
+  mv "GitHub Desktop.app" /Applications/
+else
+  log "=> GitHub Desktop is already installed"
+fi
+
 if ! test -d "/Applications/Docker.app"
 then
   log "=> Installing Docker"
