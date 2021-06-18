@@ -93,6 +93,19 @@ else
   log "=> Miro is already installed"
 fi
 
+if ! test -d "/Applications/Figma.app"
+then
+  log "=> Installing Figma"
+  rm -rf figma.zip
+  curl "https://www.figma.com/download/desktop/mac" -L --output figma.zip
+  unzip -q figma.zip
+  rm -rf figma.zip
+  mv "Figma.app" /Applications/
+  rm -rf "__MACOSX"
+else
+  log "=> Figma is already installed"
+fi
+
 if ! test -d "/Applications/Spotify.app"
 then
   log "=> Installing Spotify"
