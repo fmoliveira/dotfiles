@@ -28,11 +28,13 @@ brew install youtube-dl
 brew tap mongodb/brew && brew install mongodb-community@5.0
 brew install redis
 brew install nginx
+brew install rabbitmq && rabbitmq-plugins enable rabbitmq_management
 
 # setup brew services
 brew services start mongodb-community@5.0
 brew services start redis
 brew services start nginx
+brew services start rabbitmq
 
 # rust
 if ! command -v rustup &> /dev/null
