@@ -26,9 +26,11 @@ brew install "cmake"
 brew install "golang"
 brew install "youtube-dl"
 brew tap mongodb/brew && brew install mongodb-community@5.0
+brew install redis
 
 # setup brew services
 brew services start mongodb-community@5.0
+brew services start redis
 
 # rust
 if ! command -v rustup &> /dev/null
