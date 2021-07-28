@@ -18,13 +18,13 @@ fi
 
 # brew packages
 log "=> Installing brew packages"
-brew install "git"
-brew install "gh"
-brew install "exercism"
-brew install "gcc"
-brew install "cmake"
-brew install "golang"
-brew install "youtube-dl"
+brew install git
+brew install gh
+brew install exercism
+brew install gcc
+brew install cmake
+brew install golang
+brew install youtube-dl
 brew tap mongodb/brew && brew install mongodb-community@5.0
 brew install redis
 
