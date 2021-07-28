@@ -29,6 +29,7 @@ brew tap mongodb/brew && brew install mongodb-community@5.0
 brew install redis
 brew install nginx
 brew install rabbitmq && rabbitmq-plugins enable rabbitmq_management
+brew install java && sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
 
 # setup brew services
 brew services start mongodb-community@5.0
