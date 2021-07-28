@@ -26,6 +26,7 @@ brew install cmake
 brew install golang
 brew install youtube-dl
 brew install raycast
+brew install meetingbar
 brew tap mongodb/brew && brew install mongodb-community@5.0
 brew install redis
 brew install nginx
