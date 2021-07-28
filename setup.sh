@@ -25,6 +25,10 @@ brew install "gcc"
 brew install "cmake"
 brew install "golang"
 brew install "youtube-dl"
+brew tap mongodb/brew && brew install mongodb-community@5.0
+
+# setup brew services
+brew services start mongodb-community@5.0
 
 # rust
 if ! command -v rustup &> /dev/null
