@@ -25,6 +25,7 @@ brew install gcc
 brew install cmake
 brew install golang
 brew install youtube-dl
+brew install responsively
 brew install raycast
 brew install meetingbar
 brew tap mongodb/brew && brew install mongodb-community@5.0
