@@ -24,6 +24,7 @@ brew install exercism
 brew install gcc
 brew install cmake
 brew install golang
+brew install postgresql
 brew install mailhog
 brew install youtube-dl
 brew install responsively
@@ -36,6 +37,7 @@ brew install rabbitmq && rabbitmq-plugins enable rabbitmq_management
 brew install java && sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
 
 # setup brew services
+brew services start postgresql
 brew services start mailhog
 brew services start mongodb-community@5.0
 brew services start redis
