@@ -10,7 +10,7 @@ function viconf --description "Edit fish config files and automatically handle c
         chezmoi add "$HOME/.config/fish/$target_file"
     end
 
-    chezmoi edit "$HOME/.config/fish/$target_file" --apply
+    chezmoi edit "$HOME/.config/fish/$target_file" --apply --verbose
     source "$HOME/.config/fish/config.fish"
 end
 
