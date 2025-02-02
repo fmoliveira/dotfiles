@@ -1,0 +1,6 @@
+theme = catppuccin-mocha
+font-size = 16
+
+# workaround to force maximizing
+window-width = 3024
+window-height = 1964
