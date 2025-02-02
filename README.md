@@ -1,5 +1,7 @@
 # dotfiles
 
+> Disclaimer: Setup retired long ago. Check my current setup in the main branch.
+
 Installing all the apps I need in a new system is very boring and troublesome.
 
 I use these scripts to configure my new work environments for web development. This simplifies my life a LOT when setting up new systems from scratch, and can also be used continuously for update management.
