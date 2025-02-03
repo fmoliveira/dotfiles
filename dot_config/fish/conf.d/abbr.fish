@@ -9,3 +9,4 @@ abbr -a -- lg lazygit
 abbr -a -- man batman
 
 alias cd="z"
+alias tm="tmux attach -d || tmux"
