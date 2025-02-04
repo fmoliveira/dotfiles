@@ -5,3 +5,25 @@
 [init]
 	defaultBranch = main
 
+[rebase]
+	autosquash = true
+	autostash = true
+
+[pull]
+  ff = only
+
+[diff]
+	algorithm = histogram
+
+[merge]
+  conflictStyle = zdiff3
+
+[commit]
+	verbose = true
+
+[branch]
+  sort = -committerdate
+
+[tag]
+  sort = taggerdate
+
