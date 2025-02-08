@@ -15,7 +15,7 @@ Right now this covers a significant part of my setup and it's really super handy
 
 ## History
 
-I used to have fancier dotfiles script, which you can find under the tag [linux-dotfiles](https://github.com/fmoliveira/dotfiles/tree/linux-dotfiles). I've decided to discard all the bells and whistles and reboot it in a very minimalistic (and probably a bit too raw) way.
+I used to have fancier dotfiles script, which you can find archived under the tag [v1-debian-jessie](https://github.com/fmoliveira/dotfiles/tree/v1-debian-jessie). I've decided to discard all the bells and whistles and reboot it in a very minimalistic (and probably a bit too raw) way.
 
 Also, that old version indeed hosted the actual dotfiles in the repository. I used Sublime Text at that time which didn't have a simplified backup process like VS Code has nowadays.
 
