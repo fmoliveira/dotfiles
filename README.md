@@ -17,7 +17,7 @@ Right now this covers a significant part of my setup and it's really super handy
 
 I used to have fancier dotfiles script, which you can find archived under the tag [v1-debian-jessie](https://github.com/fmoliveira/dotfiles/tree/v1-debian-jessie). I've decided to discard all the bells and whistles and reboot it in a very minimalistic (and probably a bit too raw) way.
 
-Also, that old version indeed hosted the actual dotfiles in the repository. I used Sublime Text at that time which didn't have a simplified backup process like VS Code has nowadays.
+While the former version had my full Sublime Text configuration versioned with the repository, this setup does not and instead I used to use the VS Code sync with my settings hosted on this gist: <https://gist.github.com/fmoliveira/8bbbbecc8cbb35a0da3e66b52522318e>. Some of my former research on VS Code extensions is also available at <https://gist.github.com/fmoliveira/73a9a6fd9e1d439c741cc49724bd4bcc> as well as part of my old Windows Terminal settings at <https://gist.github.com/fmoliveira/f6ba8c6158632a4f5e5ed20848482cb7>
 
 ## Disclaimer
 
