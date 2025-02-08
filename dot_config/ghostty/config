@@ -1,6 +1,10 @@
 theme = catppuccin-macchiato
 font-size = 16
 
+# global bandaid fix for terminal contrast that works in ssh sessions
+# note: make sure to also edit your .ssh/config file and add `SetEnv TERM=xterm-256color`
+minimum-contrast = 2
+
 # workaround to force maximizing
 window-width = 3024
 window-height = 1964
