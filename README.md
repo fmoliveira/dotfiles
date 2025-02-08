@@ -1,6 +1,8 @@
-# dotfiles
+> ⚠️ ⚠️ OBSOLETE SETUP. ⚠️ ⚠️
+>
+> 🟢 You can find my [current dotfiles setup on the main branch](https://github.com/fmoliveira/dotfiles).
 
-> Disclaimer: Setup retired long ago. Check my current setup in the main branch.
+# dotfiles
 
 Installing all the apps I need in a new system is very boring and troublesome.
 
