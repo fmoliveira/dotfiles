@@ -1,3 +1,7 @@
+[".local/share/tmux/plugins/tpm"]
+type = "git-repo"
+url = "https://github.com/tmux-plugins/tpm"
+
 [".local/share/tmux/plugins/catppuccin"]
   type = "git-repo"
   url = "https://github.com/catppuccin/tmux.git"
