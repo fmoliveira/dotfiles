@@ -1,16 +1,14 @@
-# quick access to power tools
-abbr -a -- lg lazygit
+# tmux shortcut to reattach or create new session
 alias tm="tmux attach -d || tmux"
 
-# much better looks
-abbr -a -- cat bat
-abbr -a -- ls eza
-abbr -a -- lah 'ls -lah'
-abbr -a -- man batman
-
-# habit reinforcement =)
+# enhance daily chores with sweeter looks
+alias cat="bat"
 alias cd="z"
-alias du="echo 'Do you mean `gdu-go`?'"
+alias ls="eza"
+alias la="ls -lah"
+alias lah="la"
+alias man="batman"
 
-# deprecated, should prune once I get used to the new replacements
-abbr -a -- duh 'du -h -d 1 | sort -nr'
+# frequently used mouthful utilities
+alias duh="du -h -d 1 | sort -nr"
+abbr -a -- lg lazygit
