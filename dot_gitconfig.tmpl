@@ -1,25 +1,25 @@
 [user]
-	name = {{ .name | quote }}
-	email = {{ .email | quote }}
+  name = {{ .name | quote }}
+  email = {{ .email | quote }}
 
 [init]
-	defaultBranch = main
+  defaultBranch = main
 
 [rebase]
-	autosquash = true
-	autostash = true
+  autosquash = true
+  autostash = true
 
 [pull]
   ff = only
 
 [diff]
-	algorithm = histogram
+  algorithm = histogram
 
 [merge]
   conflictStyle = zdiff3
 
 [commit]
-	verbose = true
+  verbose = true
 
 [branch]
   sort = -committerdate
