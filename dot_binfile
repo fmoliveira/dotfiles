@@ -1,0 +1,6 @@
+[~/bin]
+caddy
+chezmoi
+br = ~/.cargo/bin/broot
+tshark = /Applications/Wireshark.app/Contents/MacOS/tshark
+wireshark = /Applications/Wireshark.app/Contents/MacOS/Wireshark
