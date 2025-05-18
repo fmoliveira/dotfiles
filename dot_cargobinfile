@@ -1,0 +1,18 @@
+[~/.cargo/bin]
+broot
+cargo-tauri
+lldbui
+rustup
+cargo = ~/.cargo/bin/rustup
+cargo-clippy = ~/.cargo/bin/rustup
+cargo-fmt = ~/.cargo/bin/rustup
+cargo-miri = ~/.cargo/bin/rustup
+clippy-driver = ~/.cargo/bin/rustup
+rls = ~/.cargo/bin/rustup
+rust-analyzer = ~/.cargo/bin/rustup
+rust-gdb = ~/.cargo/bin/rustup
+rust-gdbgui = ~/.cargo/bin/rustup
+rust-lldb = ~/.cargo/bin/rustup
+rustc = ~/.cargo/bin/rustup
+rustdoc = ~/.cargo/bin/rustup
+rustfmt = ~/.cargo/bin/rustup
