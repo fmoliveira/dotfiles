@@ -1,0 +1,8 @@
+[~/go/bin]
+cobra-cli
+dlv
+gopls
+lazydocker
+protoc-gen-go
+sourcemapper
+staticcheck
