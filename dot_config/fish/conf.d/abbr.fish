@@ -2,6 +2,10 @@
 alias tm="tmux attach -d || tmux"
 
 # enhance daily chores with sweeter looks
+if command -q zoxide; and command -q z
+    alias cd="z"
+end
+
 if command -q eza
     alias ls="eza"
 end
