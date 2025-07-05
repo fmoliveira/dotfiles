@@ -6,3 +6,4 @@ lazydocker
 protoc-gen-go
 sourcemapper
 staticcheck
+wails
