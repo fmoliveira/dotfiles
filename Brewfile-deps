@@ -1,0 +1,346 @@
+* brotli: (1.0M)
+-
+* glib: (76M)
+  "glib" -> "pcre2"
+  "glib" -> "gettext"
+-
+* apktool: (23M)
+  "apktool" -> "openjdk"
+-
+* atuin: (28M)
+-
+* openssl@3: (77M)
+  "openssl@3" -> "ca-certificates"
+-
+* bat: (4.4M)
+  "bat" -> "libgit2"
+  "bat" -> "oniguruma"
+-
+* bat-extras: (136K)
+-
+* binutils: (174M)
+  "binutils" -> "zstd"
+-
+* bottom: (3.9M)
+-
+* cheat: (11M)
+-
+* cmake: (70M)
+-
+* colima: (5.7M)
+  "colima" -> "lima"
+-
+* coreutils: (12M)
+  "coreutils" -> "gmp"
+-
+* docker: (27M)
+  "docker" -> "docker-completion"
+-
+* docker-buildx: (63M)
+-
+* docker-compose: (60M)
+-
+* eza: (1.4M)
+  "eza" -> "libgit2"
+-
+* fd: (2.8M)
+-
+* unbound: (13M)
+  "unbound" -> "libevent"
+  "unbound" -> "libnghttp2"
+  "unbound" -> "openssl@3"
+-
+* gnutls: (14M)
+  "gnutls" -> "ca-certificates"
+  "gnutls" -> "gmp"
+  "gnutls" -> "libidn2"
+  "gnutls" -> "libtasn1"
+  "gnutls" -> "libunistring"
+  "gnutls" -> "nettle"
+  "gnutls" -> "p11-kit"
+  "gnutls" -> "unbound"
+  "gnutls" -> "gettext"
+-
+* ffmpeg: (53M)
+  "ffmpeg" -> "aom"
+  "ffmpeg" -> "aribb24"
+  "ffmpeg" -> "dav1d"
+  "ffmpeg" -> "fontconfig"
+  "ffmpeg" -> "freetype"
+  "ffmpeg" -> "frei0r"
+  "ffmpeg" -> "gnutls"
+  "ffmpeg" -> "harfbuzz"
+  "ffmpeg" -> "jpeg-xl"
+  "ffmpeg" -> "lame"
+  "ffmpeg" -> "libass"
+  "ffmpeg" -> "libbluray"
+  "ffmpeg" -> "librist"
+  "ffmpeg" -> "libsoxr"
+  "ffmpeg" -> "libssh"
+  "ffmpeg" -> "libvidstab"
+  "ffmpeg" -> "libvmaf"
+  "ffmpeg" -> "libvorbis"
+  "ffmpeg" -> "libvpx"
+  "ffmpeg" -> "libx11"
+  "ffmpeg" -> "libxcb"
+  "ffmpeg" -> "opencore-amr"
+  "ffmpeg" -> "openjpeg"
+  "ffmpeg" -> "opus"
+  "ffmpeg" -> "rav1e"
+  "ffmpeg" -> "rubberband"
+  "ffmpeg" -> "sdl2"
+  "ffmpeg" -> "snappy"
+  "ffmpeg" -> "speex"
+  "ffmpeg" -> "srt"
+  "ffmpeg" -> "svt-av1"
+  "ffmpeg" -> "tesseract"
+  "ffmpeg" -> "theora"
+  "ffmpeg" -> "webp"
+  "ffmpeg" -> "x264"
+  "ffmpeg" -> "x265"
+  "ffmpeg" -> "xvid"
+  "ffmpeg" -> "xz"
+  "ffmpeg" -> "zeromq"
+  "ffmpeg" -> "zimg"
+  "ffmpeg" -> "libarchive"
+  "ffmpeg" -> "libogg"
+  "ffmpeg" -> "libsamplerate"
+-
+* fish: (20M)
+  "fish" -> "ncurses"
+  "fish" -> "pcre2"
+-
+* fnm: (8.9M)
+-
+* fzf: (4.4M)
+-
+* python@3.13: (80M)
+  "python@3.13" -> "mpdecimal"
+  "python@3.13" -> "openssl@3"
+  "python@3.13" -> "sqlite"
+  "python@3.13" -> "xz"
+-
+* gdb: (33M)
+  "gdb" -> "gmp"
+  "gdb" -> "mpfr"
+  "gdb" -> "ncurses"
+  "gdb" -> "python@3.13"
+  "gdb" -> "readline"
+  "gdb" -> "xz"
+  "gdb" -> "zstd"
+-
+* gdu: (14M)
+-
+* gh: (36M)
+-
+* git: (58M)
+  "git" -> "gettext"
+  "git" -> "pcre2"
+-
+* git-lfs: (13M)
+-
+* git-trim: (3.0M)
+  "git-trim" -> "openssl@3"
+-
+* gnupg: (15M)
+  "gnupg" -> "gnutls"
+  "gnupg" -> "libassuan"
+  "gnupg" -> "libgcrypt"
+  "gnupg" -> "libgpg-error"
+  "gnupg" -> "libksba"
+  "gnupg" -> "libusb"
+  "gnupg" -> "npth"
+  "gnupg" -> "pinentry"
+  "gnupg" -> "readline"
+  "gnupg" -> "gettext"
+-
+* go: (585M)
+-
+* golangci-lint: (30M)
+  "golangci-lint" -> "go"
+-
+* gpgme: (5.0M)
+  "gpgme" -> "gnupg"
+  "gpgme" -> "libassuan"
+  "gpgme" -> "libgpg-error"
+-
+* htop: (388K)
+  "htop" -> "ncurses"
+-
+* httpie: (14M)
+  "httpie" -> "certifi"
+  "httpie" -> "python@3.13"
+-
+* imagemagick: (34M)
+  "imagemagick" -> "fontconfig"
+  "imagemagick" -> "freetype"
+  "imagemagick" -> "jpeg-turbo"
+  "imagemagick" -> "jpeg-xl"
+  "imagemagick" -> "libheif"
+  "imagemagick" -> "liblqr"
+  "imagemagick" -> "libpng"
+  "imagemagick" -> "libraw"
+  "imagemagick" -> "libtiff"
+  "imagemagick" -> "libtool"
+  "imagemagick" -> "little-cms2"
+  "imagemagick" -> "openexr"
+  "imagemagick" -> "openjpeg"
+  "imagemagick" -> "webp"
+  "imagemagick" -> "xz"
+  "imagemagick" -> "gettext"
+  "imagemagick" -> "glib"
+  "imagemagick" -> "imath"
+  "imagemagick" -> "libomp"
+-
+* jadx: (121M)
+  "jadx" -> "openjdk"
+-
+* jo: (120K)
+-
+* jq: (1.5M)
+  "jq" -> "oniguruma"
+-
+* k3d: (24M)
+-
+* kubernetes-cli: (63M)
+-
+* lazygit: (19M)
+-
+* librsvg: (21M)
+  "librsvg" -> "cairo"
+  "librsvg" -> "gdk-pixbuf"
+  "librsvg" -> "glib"
+  "librsvg" -> "pango"
+  "librsvg" -> "fontconfig"
+  "librsvg" -> "freetype"
+  "librsvg" -> "gettext"
+  "librsvg" -> "harfbuzz"
+  "librsvg" -> "libpng"
+-
+* llvm: (1.6G)
+  "llvm" -> "python@3.13"
+  "llvm" -> "xz"
+  "llvm" -> "z3"
+  "llvm" -> "zstd"
+-
+* lnav: (33M)
+  "lnav" -> "libarchive"
+  "lnav" -> "libunistring"
+  "lnav" -> "ncurses"
+  "lnav" -> "pcre2"
+  "lnav" -> "readline"
+  "lnav" -> "sqlite"
+-
+* lua-language-server: (20M)
+-
+* luajit: (4.5M)
+-
+* luarocks: (1.0M)
+  "luarocks" -> "lua"
+-
+* mailpit: (19M)
+-
+* mas: (2.5M)
+-
+* mkcert: (4.0M)
+-
+* neofetch: (368K)
+  "neofetch" -> "screenresolution"
+-
+* tree-sitter: (18M)
+-
+* neovim: (32M)
+  "neovim" -> "gettext"
+  "neovim" -> "libuv"
+  "neovim" -> "lpeg"
+  "neovim" -> "luajit"
+  "neovim" -> "luv"
+  "neovim" -> "tree-sitter"
+  "neovim" -> "unibilium"
+  "neovim" -> "utf8proc"
+-
+* ninja: (428K)
+-
+* nnn: (288K)
+  "nnn" -> "gnu-sed"
+  "nnn" -> "ncurses"
+  "nnn" -> "readline"
+-
+* node_exporter: (13M)
+-
+* nss: (20M)
+  "nss" -> "nspr"
+-
+* nushell: (153M)
+  "nushell" -> "openssl@3"
+-
+* oci-cli: (346M)
+  "oci-cli" -> "certifi"
+  "oci-cli" -> "cryptography"
+  "oci-cli" -> "libyaml"
+  "oci-cli" -> "python@3.13"
+-
+* protobuf: (16M)
+  "protobuf" -> "abseil"
+-
+* python-tk@3.13: (172K)
+  "python-tk@3.13" -> "python@3.13"
+  "python-tk@3.13" -> "tcl-tk"
+-
+* rclone: (68M)
+-
+* ripgrep: (6.2M)
+  "ripgrep" -> "pcre2"
+-
+* starship: (6.8M)
+-
+* tailspin: (5.6M)
+-
+* telnet: (216K)
+-
+* tmux: (1.2M)
+  "tmux" -> "libevent"
+  "tmux" -> "ncurses"
+  "tmux" -> "utf8proc"
+-
+* tree: (208K)
+-
+* ugrep: (3.7M)
+  "ugrep" -> "brotli"
+  "ugrep" -> "lz4"
+  "ugrep" -> "pcre2"
+  "ugrep" -> "xz"
+  "ugrep" -> "zstd"
+-
+* uv: (33M)
+-
+* wget: (4.7M)
+  "wget" -> "libidn2"
+  "wget" -> "openssl@3"
+  "wget" -> "gettext"
+  "wget" -> "libunistring"
+-
+* wtfutil: (60M)
+-
+* yq: (11M)
+-
+* yt-dlp: (28M)
+  "yt-dlp" -> "certifi"
+  "yt-dlp" -> "python@3.13"
+-
+* zoxide: (1.1M)
+-
+* blacktop/tap/lporg: (20M)
+-
+* grafana/grafana/alloy: (288M)
+-
+* hashicorp/tap/terraform: (87M)
+-
+* oleiade/tap/motus: (6.6M)
+-
+* pamburus/tap/hl: (6.6M)
+-
+* powershell/tap/powershell: (199M)
+-
+* teamookla/speedtest/speedtest: (2.7M)
+-
