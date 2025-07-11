@@ -79,6 +79,8 @@ brew "go"
 brew "golangci-lint"
 # Library access to GnuPG
 brew "gpgme"
+# Kubernetes package manager
+brew "helm"
 # Improved top (interactive process viewer)
 brew "htop"
 # User-friendly cURL replacement (command-line HTTP client)
@@ -141,6 +143,8 @@ brew "python-tk@3.13"
 brew "rclone"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Display and control your Android device
+brew "scrcpy"
 # Cross-shell prompt for astronauts
 brew "starship"
 # Log file highlighter
@@ -201,6 +205,8 @@ cask "kid3"
 cask "librewolf"
 # Intercept, modify, replay, save HTTP/S traffic
 cask "mitmproxy"
+# Orchestrates virtual Ubuntu instances
+cask "multipass"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Rust-based terminal
@@ -286,12 +292,14 @@ vscode "misodee.vscode-nbt"
 vscode "mohsen1.prettify-json"
 vscode "mojang-studios.minecraft-debugger"
 vscode "mrmlnc.vscode-json5"
+vscode "ms-azuretools.vscode-azureresourcegroups"
 vscode "ms-azuretools.vscode-containers"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-dotnettools.csdevkit"
 vscode "ms-dotnettools.csharp"
 vscode "ms-dotnettools.vscode-dotnet-runtime"
 vscode "ms-dotnettools.vscodeintellicode-csharp"
+vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
 vscode "ms-ossdata.vscode-pgsql"
 vscode "ms-playwright.playwright"
 vscode "ms-python.debugpy"
@@ -338,6 +346,7 @@ vscode "surendrajat.apklab"
 vscode "svelte.svelte-vscode"
 vscode "swellaby.rust-pack"
 vscode "tamasfe.even-better-toml"
+vscode "teamsdevapp.vscode-ai-foundry"
 vscode "tetradresearch.vscode-h2o"
 vscode "thenuprojectcontributors.vscode-nushell-lang"
 vscode "tintinweb.vscode-inline-bookmarks"
@@ -353,7 +362,6 @@ vscode "vscjava.vscode-java-pack"
 vscode "vscjava.vscode-java-test"
 vscode "vscjava.vscode-maven"
 vscode "waderyan.gitblame"
-vscode "wakatime.vscode-wakatime"
 vscode "wesbos.theme-cobalt2"
 vscode "wholroyd.jinja"
 vscode "yoavbls.pretty-ts-errors"

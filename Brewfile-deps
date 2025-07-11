@@ -164,6 +164,8 @@
   "gpgme" -> "libassuan"
   "gpgme" -> "libgpg-error"
 -
+* helm: (57M)
+-
 * htop: (388K)
   "htop" -> "ncurses"
 -
@@ -291,6 +293,11 @@
 -
 * ripgrep: (6.2M)
   "ripgrep" -> "pcre2"
+-
+* scrcpy: (516K)
+  "scrcpy" -> "ffmpeg"
+  "scrcpy" -> "libusb"
+  "scrcpy" -> "sdl2"
 -
 * starship: (6.8M)
 -
