@@ -1,4 +1,4 @@
-theme = catppuccin-macchiato
+theme = catppuccin-macchiato.conf
 font-size = 16
 
 # global bandaid fix for terminal contrast that works in ssh sessions
